@@ -1,0 +1,16 @@
+{
+  "condition": {
+    "new": "Mới",
+    "good": "Tốt",
+    "worn": "Mòn / cũ",
+    "damaged": "Hư hỏng"
+  },
+  "status": {
+    "available": "Có sẵn",
+    "borrowed": "Đang mượn",
+    "reserved": "Đã đặt trước",
+    "damaged": "Hư hỏng",
+    "lost": "Mất",
+    "maintenance": "Bảo trì"
+  }
+}

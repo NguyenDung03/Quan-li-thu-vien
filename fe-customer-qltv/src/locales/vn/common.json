@@ -1,0 +1,38 @@
+{
+  "nav": {
+    "home": "Trang chủ",
+    "library": "Thư viện",
+    "profile": "Hồ sơ của tôi",
+    "historyRead": "Lịch sử đọc sách",
+    "borrowRecords": "Phiếu mượn",
+    "reservation": "Đặt trước",
+    "historyFines": "Lịch sử phạt"
+  },
+  "footer": {
+    "settings": "Cài đặt",
+    "logout": "Đăng xuất"
+  },
+  "notifications": {
+    "title": "Thông báo",
+    "empty": "Bạn chưa có thông báo phiếu mượn mới",
+    "newSingle": "Bạn có 1 phiếu mượn mới.",
+    "newPlural": "Bạn có {{count}} phiếu mượn mới.",
+    "cta": "Xem ngay"
+  },
+  "logoutDialog": {
+    "title": "Xác nhận đăng xuất",
+    "description": "Bạn có chắc chắn muốn đăng xuất khỏi tài khoản này không?",
+    "cancel": "Hủy",
+    "confirm": "Đăng xuất"
+  },
+  "settingsPage": {
+    "title": "Cài đặt",
+    "subtitle": "Tùy chỉnh trải nghiệm đọc sách của bạn.",
+    "languageSection": "Ngôn ngữ giao diện",
+    "languageDescription": "Chọn ngôn ngữ hiển thị cho ứng dụng. Lựa chọn được lưu trên trình duyệt này.",
+    "vietnamese": "Tiếng Việt",
+    "english": "English",
+    "themeSection": "Màu chủ đề",
+    "themeDescription": "Chọn bảng màu giao diện (Emerald mặc định, Ocean, Rose, Amber, Royal). Lựa chọn được lưu trên trình duyệt này."
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "condition": {
+    "new": "New",
+    "good": "Good",
+    "worn": "Worn",
+    "damaged": "Damaged"
+  },
+  "status": {
+    "available": "Available",
+    "borrowed": "Borrowed",
+    "reserved": "Reserved",
+    "damaged": "Damaged",
+    "lost": "Lost",
+    "maintenance": "Maintenance"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "nav": {
+    "home": "Home",
+    "library": "Library",
+    "profile": "My profile",
+    "historyRead": "Reading history",
+    "borrowRecords": "Borrow slips",
+    "reservation": "Reservations",
+    "historyFines": "Fine history"
+  },
+  "footer": {
+    "settings": "Settings",
+    "logout": "Log out"
+  },
+  "notifications": {
+    "title": "Notifications",
+    "empty": "You have no new borrow notifications",
+    "newSingle": "You have 1 new borrow slip.",
+    "newPlural": "You have {{count}} new borrow slips.",
+    "cta": "View now"
+  },
+  "logoutDialog": {
+    "title": "Confirm log out",
+    "description": "Are you sure you want to log out of this account?",
+    "cancel": "Cancel",
+    "confirm": "Log out"
+  },
+  "settingsPage": {
+    "title": "Settings",
+    "subtitle": "Customize your reading experience.",
+    "languageSection": "Interface language",
+    "languageDescription": "Choose the app display language. Your choice is saved in this browser.",
+    "vietnamese": "Vietnamese",
+    "english": "English",
+    "themeSection": "Color theme",
+    "themeDescription": "Choose the UI palette (default Emerald, Ocean, Rose, Amber, Royal). Your choice is saved in this browser."
+  }
+}
