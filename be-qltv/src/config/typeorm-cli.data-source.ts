@@ -1,19 +1,19 @@
 import 'reflect-metadata';
 import * as path from 'node:path';
-
 import * as dotenv from 'dotenv';
 import { DataSource } from 'typeorm';
 
-dotenv.config({ path: path.join(__dirname, '../../.env') });
+// Nạp biến môi trường từ .env ở thư mục gốc
+dotenv.config({ path: path.join(process.cwd(), '.env') });
 
 export default new DataSource({
   type: 'postgres',
-  host: process.env.DB_HOST,
-  port: Number.parseInt(process.env.DB_PORT ?? '5432', 10),
-  username: process.env.DB_USER,
-  password: process.env.DB_PASSWORD,
-  database: process.env.DB_NAME,
-
-  entities: [],
-  migrations: [path.join(__dirname, '../migrations/*{.ts,.js}')],
+  url: process.env.DATABASE_URL,
+  ssl: {
+    rejectUnauthorized: false,
+  },
+  // Quét Entity bằng đường dẫn tương đối để tránh lỗi Alias
+  entities: [path.join(process.cwd(), 'src/modules/**/*.entity{.ts,.js}')],
+  migrations: [path.join(process.cwd(), 'src/migrations/*{.ts,.js}')],
+  synchronize: false,
 });

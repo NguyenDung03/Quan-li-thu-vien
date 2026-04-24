@@ -19,9 +19,10 @@
     "test:debug": "node --inspect-brk -r tsconfig-paths/register -r ts-node/register node_modules/.bin/jest --runInBand",
     "test:e2e": "jest --config ./test/jest-e2e.json",
     "seed": "ts-node src/seed-users.ts",
-    "migration:run": "typeorm-ts-node-commonjs migration:run -d src/config/typeorm-cli.data-source.ts",
-    "migration:revert": "typeorm-ts-node-commonjs migration:revert -d src/config/typeorm-cli.data-source.ts",
-    "migration:show": "typeorm-ts-node-commonjs migration:show -d src/config/typeorm-cli.data-source.ts"
+    "migration:run": "set TS_NODE_PROJECT=tsconfig.typeorm.json&& node -r ts-node/register -r tsconfig-paths/register ./node_modules/typeorm/cli.js migration:run -d src/config/typeorm-cli.data-source.ts",
+    "migration:revert": "set TS_NODE_PROJECT=tsconfig.typeorm.json&& node -r ts-node/register -r tsconfig-paths/register ./node_modules/typeorm/cli.js migration:revert -d src/config/typeorm-cli.data-source.ts",
+    "migration:show": "set TS_NODE_PROJECT=tsconfig.typeorm.json&& node -r ts-node/register -r tsconfig-paths/register ./node_modules/typeorm/cli.js migration:show -d src/config/typeorm-cli.data-source.ts",
+    "migration:generate": "set TS_NODE_PROJECT=tsconfig.typeorm.json&& node -r ts-node/register -r tsconfig-paths/register ./node_modules/typeorm/cli.js migration:generate src/migrations/InitialDatabase -d src/config/typeorm-cli.data-source.ts"
   },
   "dependencies": {
     "@google/generative-ai": "^0.24.1",
