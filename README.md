@@ -1,4 +1,4 @@
-# 📚 QLTV <p align="left">
+# 📚 QLTV <p align="center">
   <img src="https://img.shields.io/badge/STACK-NestJS%20%7C%20React%20%7C%20TypeScript-0ea5e9?style=for-the-badge&labelColor=1f2937" alt="Stack NestJS React TypeScript" />
   <img src="https://img.shields.io/badge/INFRA-PostgreSQL%20%7C%20Redis%20%7C%20RabbitMQ-6366f1?style=for-the-badge&labelColor=1f2937" alt="Infra PostgreSQL Redis RabbitMQ" />
   <img src="https://img.shields.io/badge/STATUS-ACTIVE-22c55e?style=for-the-badge&labelColor=1f2937" alt="Status Active" />
@@ -20,7 +20,7 @@ Backend API • Admin Portal • Customer Portal • AI Chatbot • Crawl Pipeli
 | Quản trị dữ liệu | Trải nghiệm người dùng | Hỏi đáp theo tài liệu | Đồng bộ tri thức |
 
 
-[Features](#-features) • [Architecture](#️-architecture) • [Run](#️-run-development) • [CV Highlights](#-điểm-mạnh-kỹ-thuật-có-thể-đưa-vào-cv)
+[Features](#-features) • [Architecture](#️-architecture) • [Run](#️-run-development) •
 
 ---
 
@@ -406,4 +406,6 @@ npm run lint
 
 ---
 
-Made with ❤️ by Dũng
+<p align="center">
+  Made with ❤️ by Dũng
+</p>
