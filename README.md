@@ -1,9 +1,9 @@
-# 📚 QLTV
-<p align="left">
-  <img src="https://img.shields.io/badge/STACK-MERN-0ea5e9?style=for-the-badge&labelColor=1f2937" alt="Stack MERN" />
-  <img src="https://img.shields.io/badge/LICENSE-MIT-84cc16?style=for-the-badge&labelColor=1f2937" alt="License MIT" />
+# 📚 QLTV <p align="left">
+  <img src="https://img.shields.io/badge/STACK-NestJS%20%7C%20React%20%7C%20TypeScript-0ea5e9?style=for-the-badge&labelColor=1f2937" alt="Stack NestJS React TypeScript" />
+  <img src="https://img.shields.io/badge/INFRA-PostgreSQL%20%7C%20Redis%20%7C%20RabbitMQ-6366f1?style=for-the-badge&labelColor=1f2937" alt="Infra PostgreSQL Redis RabbitMQ" />
   <img src="https://img.shields.io/badge/STATUS-ACTIVE-22c55e?style=for-the-badge&labelColor=1f2937" alt="Status Active" />
 </p>
+
 
 
 
