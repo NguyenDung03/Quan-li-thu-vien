@@ -1,4 +1,9 @@
 # 📚 QLTV
+<p align="left">
+  <img src="https://img.shields.io/badge/STACK-MERN-0ea5e9?style=for-the-badge&labelColor=1f2937" alt="Stack MERN" />
+  <img src="https://img.shields.io/badge/LICENSE-MIT-84cc16?style=for-the-badge&labelColor=1f2937" alt="License MIT" />
+  <img src="https://img.shields.io/badge/STATUS-ACTIVE-22c55e?style=for-the-badge&labelColor=1f2937" alt="Status Active" />
+</p>
 
 
 
